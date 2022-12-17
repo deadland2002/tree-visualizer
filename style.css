@@ -11,13 +11,12 @@ body{
     height: 100vh;
     align-items: center;
     gap: 20px;
-    overflow-x: scroll;
     padding: 10px 100px;
+    overflow: scroll;
 }
 
 .box{
     width: 100%;
-    background-color: azure;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -53,7 +52,7 @@ body{
     padding: 10px 10px;
     flex-direction: column;
     gap: 10px;
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(213, 213, 213);
 }
 
 .root{
@@ -72,4 +71,6 @@ svg{
 
 .parent{
     position: relative;
+    margin: 0 auto;
+    padding-right: 100px;
 }
